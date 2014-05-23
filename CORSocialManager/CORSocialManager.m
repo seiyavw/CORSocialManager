@@ -13,7 +13,6 @@
 {
     NSString *_twitterApiKey;
     NSString *_twitterSecretKey;
-    
     NSString *_facebookAppIdKey;
 }
 
@@ -24,7 +23,6 @@
     dispatch_once(&once, ^ {
         sharedInstance = [[self alloc] init];
     });
-    
     return sharedInstance;
 }
 
@@ -46,7 +44,6 @@
 
 - (void)requestTwitterAccountsWithPickingBlock:(CORSocialManagerPickingBlock)pickingBlock
 {
-    
     [self requestSocialAccountsWithServiceType:SLServiceTypeTwitter options:nil pickingBlock:pickingBlock];
 }
 
@@ -67,7 +64,6 @@
                                      options:(NSDictionary*)options
                                 pickingBlock:(CORSocialManagerPickingBlock)pickingBlock
 {
-    
     CORSocialManagerPickingBlock copiedPickingBlock = [pickingBlock copy];
     
     if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
@@ -104,7 +100,6 @@
 
 - (void)requestTwitterAccountInfo:(ACAccount *)account completion:(CORSocialManagerTwitterAuthCompletion)completion
 {
-    
     CORSocialManagerTwitterAuthCompletion copiedCompletion = [completion copy];
     
     NSAssert(_twitterApiKey != nil, @"Twitter api key is required.");

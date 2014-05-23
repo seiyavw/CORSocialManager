@@ -11,9 +11,7 @@
 #import <Social/Social.h>
 
 typedef void(^CORSocialManagerPickingBlock)(NSArray *accounts, NSError *error);
-
 typedef void(^CORSocialManagerTwitterAuthCompletion)(NSDictionary *authInfo, NSError *error);
-
 
 @interface CORSocialManager : NSObject
 
