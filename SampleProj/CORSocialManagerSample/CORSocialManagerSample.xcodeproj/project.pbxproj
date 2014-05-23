@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F132D44192F2E15004ED264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F132D43192F2E15004ED264 /* Foundation.framework */; };
+		9F132D46192F2E15004ED264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F132D45192F2E15004ED264 /* CoreGraphics.framework */; };
+		9F132D48192F2E15004ED264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F132D47192F2E15004ED264 /* UIKit.framework */; };
+		9F132D4E192F2E15004ED264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F132D4C192F2E15004ED264 /* InfoPlist.strings */; };
+		9F132D50192F2E15004ED264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F132D4F192F2E15004ED264 /* main.m */; };
+		9F132D54192F2E15004ED264 /* CSMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F132D53192F2E15004ED264 /* CSMAppDelegate.m */; };
+		9F132D56192F2E15004ED264 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F132D55192F2E15004ED264 /* Images.xcassets */; };
+		9F132D5D192F2E16004ED264 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F132D5C192F2E16004ED264 /* XCTest.framework */; };
+		9F132D5E192F2E16004ED264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F132D43192F2E15004ED264 /* Foundation.framework */; };
+		9F132D5F192F2E16004ED264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F132D47192F2E15004ED264 /* UIKit.framework */; };
+		9F132D67192F2E16004ED264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F132D65192F2E16004ED264 /* InfoPlist.strings */; };
+		9F132D69192F2E16004ED264 /* CORSocialManagerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F132D68192F2E16004ED264 /* CORSocialManagerSampleTests.m */; };
+		9F132D76192F2EF8004ED264 /* CORSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F132D75192F2EF8004ED264 /* CORSocialManager.m */; };
+		9F132D7D192F2F31004ED264 /* CSMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F132D7B192F2F31004ED264 /* CSMFirstViewController.m */; };
+		9F132D7E192F2F31004ED264 /* Scenes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F132D7C192F2F31004ED264 /* Scenes.storyboard */; };
+		F3D7625AC2C64E89A77DF3E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5E54A9929F4CFFB5C9ECD9 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F132D60192F2E16004ED264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F132D38192F2E15004ED264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F132D3F192F2E15004ED264;
+			remoteInfo = CORSocialManagerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AC653538B7345EF9DBE75FE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9F132D40192F2E15004ED264 /* CORSocialManagerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CORSocialManagerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F132D43192F2E15004ED264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F132D45192F2E15004ED264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F132D47192F2E15004ED264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F132D4B192F2E15004ED264 /* CORSocialManagerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CORSocialManagerSample-Info.plist"; sourceTree = "<group>"; };
+		9F132D4D192F2E15004ED264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F132D4F192F2E15004ED264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F132D51192F2E15004ED264 /* CORSocialManagerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CORSocialManagerSample-Prefix.pch"; sourceTree = "<group>"; };
+		9F132D52192F2E15004ED264 /* CSMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSMAppDelegate.h; sourceTree = "<group>"; };
+		9F132D53192F2E15004ED264 /* CSMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSMAppDelegate.m; sourceTree = "<group>"; };
+		9F132D55192F2E15004ED264 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F132D5B192F2E16004ED264 /* CORSocialManagerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CORSocialManagerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F132D5C192F2E16004ED264 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9F132D64192F2E16004ED264 /* CORSocialManagerSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CORSocialManagerSampleTests-Info.plist"; sourceTree = "<group>"; };
+		9F132D66192F2E16004ED264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F132D68192F2E16004ED264 /* CORSocialManagerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CORSocialManagerSampleTests.m; sourceTree = "<group>"; };
+		9F132D74192F2EF8004ED264 /* CORSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CORSocialManager.h; sourceTree = "<group>"; };
+		9F132D75192F2EF8004ED264 /* CORSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CORSocialManager.m; sourceTree = "<group>"; };
+		9F132D7A192F2F31004ED264 /* CSMFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMFirstViewController.h; sourceTree = "<group>"; };
+		9F132D7B192F2F31004ED264 /* CSMFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMFirstViewController.m; sourceTree = "<group>"; };
+		9F132D7C192F2F31004ED264 /* Scenes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Scenes.storyboard; sourceTree = "<group>"; };
+		EE5E54A9929F4CFFB5C9ECD9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F132D3D192F2E15004ED264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F132D46192F2E15004ED264 /* CoreGraphics.framework in Frameworks */,
+				9F132D48192F2E15004ED264 /* UIKit.framework in Frameworks */,
+				9F132D44192F2E15004ED264 /* Foundation.framework in Frameworks */,
+				F3D7625AC2C64E89A77DF3E7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F132D58192F2E16004ED264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F132D5D192F2E16004ED264 /* XCTest.framework in Frameworks */,
+				9F132D5F192F2E16004ED264 /* UIKit.framework in Frameworks */,
+				9F132D5E192F2E16004ED264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F132D37192F2E15004ED264 = {
+			isa = PBXGroup;
+			children = (
+				9F132D72192F2EF0004ED264 /* Libs */,
+				9F132D49192F2E15004ED264 /* CORSocialManagerSample */,
+				9F132D62192F2E16004ED264 /* CORSocialManagerSampleTests */,
+				9F132D42192F2E15004ED264 /* Frameworks */,
+				9F132D41192F2E15004ED264 /* Products */,
+				5AC653538B7345EF9DBE75FE /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9F132D41192F2E15004ED264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D40192F2E15004ED264 /* CORSocialManagerSample.app */,
+				9F132D5B192F2E16004ED264 /* CORSocialManagerSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F132D42192F2E15004ED264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D43192F2E15004ED264 /* Foundation.framework */,
+				9F132D45192F2E15004ED264 /* CoreGraphics.framework */,
+				9F132D47192F2E15004ED264 /* UIKit.framework */,
+				9F132D5C192F2E16004ED264 /* XCTest.framework */,
+				EE5E54A9929F4CFFB5C9ECD9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F132D49192F2E15004ED264 /* CORSocialManagerSample */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D77192F2F31004ED264 /* Classes */,
+				9F132D52192F2E15004ED264 /* CSMAppDelegate.h */,
+				9F132D53192F2E15004ED264 /* CSMAppDelegate.m */,
+				9F132D55192F2E15004ED264 /* Images.xcassets */,
+				9F132D4A192F2E15004ED264 /* Supporting Files */,
+			);
+			path = CORSocialManagerSample;
+			sourceTree = "<group>";
+		};
+		9F132D4A192F2E15004ED264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D4B192F2E15004ED264 /* CORSocialManagerSample-Info.plist */,
+				9F132D4C192F2E15004ED264 /* InfoPlist.strings */,
+				9F132D4F192F2E15004ED264 /* main.m */,
+				9F132D51192F2E15004ED264 /* CORSocialManagerSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F132D62192F2E16004ED264 /* CORSocialManagerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D68192F2E16004ED264 /* CORSocialManagerSampleTests.m */,
+				9F132D63192F2E16004ED264 /* Supporting Files */,
+			);
+			path = CORSocialManagerSampleTests;
+			sourceTree = "<group>";
+		};
+		9F132D63192F2E16004ED264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D64192F2E16004ED264 /* CORSocialManagerSampleTests-Info.plist */,
+				9F132D65192F2E16004ED264 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F132D72192F2EF0004ED264 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D73192F2EF8004ED264 /* CORSocialManager */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		9F132D73192F2EF8004ED264 /* CORSocialManager */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D74192F2EF8004ED264 /* CORSocialManager.h */,
+				9F132D75192F2EF8004ED264 /* CORSocialManager.m */,
+			);
+			name = CORSocialManager;
+			path = ../../CORSocialManager;
+			sourceTree = "<group>";
+		};
+		9F132D77192F2F31004ED264 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D78192F2F31004ED264 /* Scenes */,
+				9F132D7C192F2F31004ED264 /* Scenes.storyboard */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9F132D78192F2F31004ED264 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D79192F2F31004ED264 /* First */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9F132D79192F2F31004ED264 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				9F132D7A192F2F31004ED264 /* CSMFirstViewController.h */,
+				9F132D7B192F2F31004ED264 /* CSMFirstViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F132D3F192F2E15004ED264 /* CORSocialManagerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F132D6C192F2E16004ED264 /* Build configuration list for PBXNativeTarget "CORSocialManagerSample" */;
+			buildPhases = (
+				652E0B6C37254B1E8281770B /* Check Pods Manifest.lock */,
+				9F132D3C192F2E15004ED264 /* Sources */,
+				9F132D3D192F2E15004ED264 /* Frameworks */,
+				9F132D3E192F2E15004ED264 /* Resources */,
+				827122AC07624B90A8F1CA70 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CORSocialManagerSample;
+			productName = CORSocialManagerSample;
+			productReference = 9F132D40192F2E15004ED264 /* CORSocialManagerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F132D5A192F2E16004ED264 /* CORSocialManagerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F132D6F192F2E16004ED264 /* Build configuration list for PBXNativeTarget "CORSocialManagerSampleTests" */;
+			buildPhases = (
+				9F132D57192F2E16004ED264 /* Sources */,
+				9F132D58192F2E16004ED264 /* Frameworks */,
+				9F132D59192F2E16004ED264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F132D61192F2E16004ED264 /* PBXTargetDependency */,
+			);
+			name = CORSocialManagerSampleTests;
+			productName = CORSocialManagerSampleTests;
+			productReference = 9F132D5B192F2E16004ED264 /* CORSocialManagerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F132D38192F2E15004ED264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CSM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = corleonis;
+				TargetAttributes = {
+					9F132D5A192F2E16004ED264 = {
+						TestTargetID = 9F132D3F192F2E15004ED264;
+					};
+				};
+			};
+			buildConfigurationList = 9F132D3B192F2E15004ED264 /* Build configuration list for PBXProject "CORSocialManagerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F132D37192F2E15004ED264;
+			productRefGroup = 9F132D41192F2E15004ED264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F132D3F192F2E15004ED264 /* CORSocialManagerSample */,
+				9F132D5A192F2E16004ED264 /* CORSocialManagerSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F132D3E192F2E15004ED264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F132D7E192F2F31004ED264 /* Scenes.storyboard in Resources */,
+				9F132D4E192F2E15004ED264 /* InfoPlist.strings in Resources */,
+				9F132D56192F2E15004ED264 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F132D59192F2E16004ED264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F132D67192F2E16004ED264 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		652E0B6C37254B1E8281770B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		827122AC07624B90A8F1CA70 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F132D3C192F2E15004ED264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F132D54192F2E15004ED264 /* CSMAppDelegate.m in Sources */,
+				9F132D7D192F2F31004ED264 /* CSMFirstViewController.m in Sources */,
+				9F132D76192F2EF8004ED264 /* CORSocialManager.m in Sources */,
+				9F132D50192F2E15004ED264 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F132D57192F2E16004ED264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F132D69192F2E16004ED264 /* CORSocialManagerSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F132D61192F2E16004ED264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F132D3F192F2E15004ED264 /* CORSocialManagerSample */;
+			targetProxy = 9F132D60192F2E16004ED264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F132D4C192F2E15004ED264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F132D4D192F2E15004ED264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F132D65192F2E16004ED264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F132D66192F2E16004ED264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F132D6A192F2E16004ED264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F132D6B192F2E16004ED264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F132D6D192F2E16004ED264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC653538B7345EF9DBE75FE /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CORSocialManagerSample/CORSocialManagerSample-Prefix.pch";
+				INFOPLIST_FILE = "CORSocialManagerSample/CORSocialManagerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F132D6E192F2E16004ED264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC653538B7345EF9DBE75FE /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CORSocialManagerSample/CORSocialManagerSample-Prefix.pch";
+				INFOPLIST_FILE = "CORSocialManagerSample/CORSocialManagerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9F132D70192F2E16004ED264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CORSocialManagerSample.app/CORSocialManagerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CORSocialManagerSample/CORSocialManagerSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CORSocialManagerSampleTests/CORSocialManagerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9F132D71192F2E16004ED264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CORSocialManagerSample.app/CORSocialManagerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CORSocialManagerSample/CORSocialManagerSample-Prefix.pch";
+				INFOPLIST_FILE = "CORSocialManagerSampleTests/CORSocialManagerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F132D3B192F2E15004ED264 /* Build configuration list for PBXProject "CORSocialManagerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F132D6A192F2E16004ED264 /* Debug */,
+				9F132D6B192F2E16004ED264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F132D6C192F2E16004ED264 /* Build configuration list for PBXNativeTarget "CORSocialManagerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F132D6D192F2E16004ED264 /* Debug */,
+				9F132D6E192F2E16004ED264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F132D6F192F2E16004ED264 /* Build configuration list for PBXNativeTarget "CORSocialManagerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F132D70192F2E16004ED264 /* Debug */,
+				9F132D71192F2E16004ED264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F132D38192F2E15004ED264 /* Project object */;
+}
