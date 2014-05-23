@@ -1,0 +1,4 @@
+CORSocialManager
+================
+
+CORSocialManager
