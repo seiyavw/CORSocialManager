@@ -28,6 +28,9 @@
     return sharedInstance;
 }
 
+
+#pragma mark - register app key
+
 - (void)registerFacebookAppIdKey:(NSString *)appIdKey
 {
     _facebookAppIdKey = appIdKey;
@@ -38,6 +41,8 @@
     _twitterApiKey = apiKey;
     _twitterSecretKey = secretKey;
 }
+
+#pragma mark - request accounts
 
 - (void)requestTwitterAccountsWithPickingBlock:(CORSocialManagerPickingBlock)pickingBlock
 {
@@ -55,6 +60,8 @@
     
     [self requestSocialAccountsWithServiceType:SLServiceTypeFacebook options:options pickingBlock:pickingBlock];
 }
+
+#pragma mark - common method for Account framework
 
 - (void)requestSocialAccountsWithServiceType:(NSString *)serviceType
                                      options:(NSDictionary*)options
@@ -92,6 +99,8 @@
     }
 
 }
+
+#pragma mark - for Twitter Auth
 
 - (void)requestTwitterAccountInfo:(ACAccount *)account completion:(CORSocialManagerTwitterAuthCompletion)completion
 {

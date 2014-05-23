@@ -19,9 +19,9 @@
     NSArray *_facebookAccounts;
 }
 
-static NSString *const kFacebookAppIdKey    = @"716360685074427";
-static NSString *const kTwitterAPIKey       = @"e7alwabVMicnC397QxIPBB40F";
-static NSString *const kTwitterSecretKey    = @"4j9BxniT4oJtLosSLmxD3Zh5fIHXGA6jR9SZAVAGXqFWioGe41";
+static NSString *const kFacebookAppIdKey    = @"";
+static NSString *const kTwitterAPIKey       = @"";
+static NSString *const kTwitterSecretKey    = @"";
 
 static const NSInteger kActionSheetTagForFacebook = 1000;
 static const NSInteger kActionSheetTagForTwitter  = 2000;
@@ -40,6 +40,7 @@ static const NSInteger kActionSheetTagForTwitter  = 2000;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // register api key
     [[CORSocialManager sharedManager] registerFacebookAppIdKey:kFacebookAppIdKey];
     [[CORSocialManager sharedManager] registerTwitterApiKey:kTwitterAPIKey secretKey:kTwitterSecretKey];
 }
@@ -76,7 +77,6 @@ static const NSInteger kActionSheetTagForTwitter  = 2000;
     }];
 
 }
-
 
 - (IBAction)didTapTwitterButton:(id)sender {
     
