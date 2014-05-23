@@ -9,6 +9,13 @@
 #import "CSMFirstViewController.h"
 #import "CORSocialManager.h"
 
+NSString *const kFacebookAppIdKey    = @"";
+NSString *const kTwitterAPIKey       = @"";
+NSString *const kTwitterSecretKey    = @"";
+
+const NSInteger kActionSheetTagForFacebook = 1000;
+const NSInteger kActionSheetTagForTwitter  = 2000;
+
 @interface CSMFirstViewController () <UIActionSheetDelegate>
 
 @end
@@ -18,13 +25,6 @@
     NSArray *_twitterAccounts;
     NSArray *_facebookAccounts;
 }
-
-NSString *const kFacebookAppIdKey    = @"";
-NSString *const kTwitterAPIKey       = @"";
-NSString *const kTwitterSecretKey    = @"";
-
-const NSInteger kActionSheetTagForFacebook = 1000;
-const NSInteger kActionSheetTagForTwitter  = 2000;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
