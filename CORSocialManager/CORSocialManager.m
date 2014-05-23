@@ -49,8 +49,6 @@
 
 - (void)requestFacebookAccountsWithPickingBlock:(CORSocialManagerPickingBlock)pickingBlock
 {
-    NSAssert(_facebookAppIdKey != nil, @"Facebook app id key is requred.");
-    
     NSDictionary *options = @{@"ACFacebookAppIdKey": _facebookAppIdKey,
                               @"ACFacebookPermissionsKey": @[@"email"],
                               @"ACFacebookAudienceKey": ACFacebookAudienceFriends};
@@ -101,9 +99,6 @@
 - (void)requestTwitterAccountInfo:(ACAccount *)account completion:(CORSocialManagerTwitterAuthCompletion)completion
 {
     CORSocialManagerTwitterAuthCompletion copiedCompletion = [completion copy];
-    
-    NSAssert(_twitterApiKey != nil, @"Twitter api key is required.");
-    NSAssert(_twitterSecretKey != nil, @"Twitter secret key is required.");
     
     STTwitterAPI *twitter = [STTwitterAPI twitterAPIWithOAuthConsumerName:nil consumerKey:_twitterApiKey consumerSecret:_twitterSecretKey];
     
