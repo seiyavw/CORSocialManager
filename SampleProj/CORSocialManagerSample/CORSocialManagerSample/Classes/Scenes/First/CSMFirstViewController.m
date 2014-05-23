@@ -19,12 +19,12 @@
     NSArray *_facebookAccounts;
 }
 
-static NSString *const kFacebookAppIdKey    = @"";
-static NSString *const kTwitterAPIKey       = @"";
-static NSString *const kTwitterSecretKey    = @"";
+NSString *const kFacebookAppIdKey    = @"";
+NSString *const kTwitterAPIKey       = @"";
+NSString *const kTwitterSecretKey    = @"";
 
-static const NSInteger kActionSheetTagForFacebook = 1000;
-static const NSInteger kActionSheetTagForTwitter  = 2000;
+const NSInteger kActionSheetTagForFacebook = 1000;
+const NSInteger kActionSheetTagForTwitter  = 2000;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
