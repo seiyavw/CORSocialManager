@@ -5,4 +5,4 @@ enables your app to get user's twitter or facebook accounts information connecte
 
 As for twitter, you can get a user token as well using reverse auth api.
 
-(dependecy: STTwitter - https://github.com/nst/STTwitter)
+(dependency in podspec: STTwitter - https://github.com/nst/STTwitter)
